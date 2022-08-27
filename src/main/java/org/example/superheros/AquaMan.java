@@ -2,17 +2,17 @@ package org.example.superheros;
 
 import org.example.Superhero;
 
-public class Superman implements Superhero {
+public class AquaMan implements Superhero {
     private int lvl;
     private String label = "DC";
 
-    public Superman(int lvl) {
+    public AquaMan(int lvl) {
         this.lvl = lvl;
     }
 
     @Override
     public String superPower() {
-        return "Aaa, I'm superman";
+        return "Aaa, I'm aqua man";
     }
 
     @Override
