@@ -20,6 +20,11 @@ public class SpiderMan implements Superhero {
     }
 
     @Override
+    public String getName() {
+        return "SpiderMan";
+    }
+
+    @Override
     public String superPower() {
         return "Aaa, I'm Spider-Man";
     }

@@ -24,4 +24,9 @@ public class Superman implements Superhero {
     public String getLabel() {
         return label;
     }
+
+    @Override
+    public String getName() {
+        return "Superman";
+    }
 }

@@ -24,4 +24,9 @@ public class Wolverine implements Superhero {
     public String getLabel() {
         return label;
     }
+
+    @Override
+    public String getName() {
+        return "Wolverine";
+    }
 }

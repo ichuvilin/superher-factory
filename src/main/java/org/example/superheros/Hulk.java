@@ -24,4 +24,9 @@ public class Hulk implements Superhero {
     public String getLabel() {
         return label;
     }
+
+    @Override
+    public String getName() {
+        return "Hulk";
+    }
 }
